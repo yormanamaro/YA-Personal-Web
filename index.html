@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀Yorman Amaro🚀 | website, articles, portfolio and more</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ec2bf2b54a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="header" id="header">
+        <div class="container">
+            <nav>
+                <img src="./asset/logo2.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Blog</a></li>
+                    <li><a href="#portafolio">Porfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-tex">
+                <p>Front-end and future Fullstack MERN Developer </p>
+                <h1>Hi, I'm <span>Yorman</span> Amaro<br>base in Chile</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="about" id="about">
+        <div class="container-about">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./asset/about.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="about-text">I have more than 2 years of experience working with concepts as UI & Front Developer, with strong skills in HTML5 markup, CSS3, responsive web and semantic web analysis. In my last post I covered front-end processes with Javascript using React and back-end in Node JS, focused on REST APIs with Express and MongoDB. You will find that I am a curious and analytical problem solver with a focus on continuous learning and constantly staying up to date on new technologies.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span></i>UI</span><br>Designing Web/App interfaces</li>
+                            <li><span>HTML5</span><br>HyperText Markup Language <i class="fa-brands fa-html5"></i></li>
+                            <li><span>CSS3</span><br>Cascading Style Sheets <i class="fa-brands fa-css3-alt"></i></li>
+                            <li><span>JavaScript</span><br>Object-oriented programming language and prototypes <i class="fa-brands fa-square-js"></i></li>
+                            <li><span>GIT</span><br>Version Control Software <i class="fa-brands fa-git-alt"></i></li>
+                            <li><span></i>SASS</span><br>It is a scripting language that is translated into CSS <i class="fa-brands fa-sass"></i></li>
+                            <li><span></i>React</span><br>Open source Javascript library designed to create user interfaces <i class="fa-brands fa-react"></i></li>
+                            <li><span></i>Node.js</span><br>Event environment designed to build scalable server-side applications <i class="fa-brands fa-node-js"></i></li>
+                            <li><span></i>Express.js</span><br>Work environment used to develop web applications and APIs <i class="fa-brands fa-node-js"></i></li>
+                            <li><span></i>MongoDB</span><br>NoSQL database system, document-oriented <i class="fa-brands fa-hotjar"></i></li>
+                            <li><span></i>MySQL</span><br>Relational Database Management System <i class="fa-solid fa-database"></i></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>UI/UX Desing Training Institute</li>
+                            <li><span>2019 - 2021</span><br>Team lead at StarApp  LLC.</li>
+                            <li><span>2017 - 2019</span><br>UI/UX Desing Executive at Coin Digital.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016</span><br>UI/UX Desing Training at ET Institute</li>
+                            <li><span>2016</span><br>MBA from MIT Bangalore</li>
+                            <li><span>2014</span><br>Stack MERN at escalab Academy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Blog</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code-pull-request"></i>
+                    <h2>Pull Request!!!</h2>
+                    <p>Es bastante probable que si estas inmerso en el mundo de la programación y ya tengas cierto tiempo experimentando con plataformas de código y trabajando en equipos, te hayas encontrado con la palabra PULL REQUEST.</p>
+                    <a href="https://medium.com/@yorman.amaro/lo-que-no-sabes-sobre-pull-request-992df336d15c" target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2>UI/UXDesing</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro molestiae, culpa dolorem sunt eius volum sit, sunt esse nesciunt distinctio!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Desing</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro molestiae, culpa dolorem sunt eius volum sit, sunt esse nesciunt distinctio!</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="portafolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./asset/Web-countris.png" alt="project1">
+                    <div class="layer">
+                        <h3>Countries of the world</h3>
+                        <p>This web application connects to an API to display country data such as their flags, classification by continents, amount of population, their capital, responsive using technologies such as html5, css3, JavaScript, implementation of dark modes</p>
+                        <a href="https://yormanamaro.github.io/country-page/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./asset/amaro-films.png" alt="project2">
+                    <div class="layer">
+                        <h3>Whatch TV Shows</h3>
+                        <p>This web application presents the consumption of a rest api on television series and movies integrating atomicity principles and style components using react.</p>
+                        <a href="https://amaro-films.vercel.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./asset/Rick-and-Morty-Library.png" alt="project3">
+                    <div class="layer">
+                        <h3>Rick and morty library</h3>
+                        <p>In this web application an api is consumed through fetch and atomicity principles with stateless, statefull components and the use of hooks with react.</p>
+                        <a href="https://rick-and-morty-library-azure.vercel.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/yormanamaro" target="_blank" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>amarocarrero24@gmail.com</p>
+                    <p> <i class="fa-solid fa-square-phone"></i>0056-9-75561687</p> 
+                    <div class="social-icons">
+                        <a href="https://twitter.com/Yorman_Amaro" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/yormaneduardoa/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/yormanamaro-dev/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/yormanamaro" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="" class="btn btn2">Dowload CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Yorman Amaro, Made wtih <i class="fa-solid fa-heart"></i> by Easy Tutoriales</p>
+        </div>
+    </div>
+
+<script src="./select-about.js"></script>
+
+</body>
+</html>
