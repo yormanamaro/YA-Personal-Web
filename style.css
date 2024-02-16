@@ -206,7 +206,7 @@ nav ul li a:hover::after {
 .service-list div a {
     text-decoration: none;
     color: #fff;
-    font-size: 12px;
+    font-size: 15px;
     margin-top: 20px;
     display: inline-block;
 }
